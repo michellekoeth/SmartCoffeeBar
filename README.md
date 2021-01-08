@@ -25,3 +25,5 @@ There is a pause with a dialogue to explain that you need to remove the tubes an
 Would need to be redesigned for the Vertuo pod form factor
 
 https://www.yoctopuce.com/EN/article/an-automatic-nespresso-capsule-dispenser
+
+https://www.makexyz.com/3d-models/order/a9308e6ae05433c38fa09dafb04d1d30
