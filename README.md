@@ -20,3 +20,8 @@ To clean the pumps, it is a 3-cycle process:
 1 - return all liquid to the bottles 10000 backwards for each pump
 2 and 3 run forward 10000 for each pump
 There is a pause with a dialogue to explain that you need to remove the tubes and probably empty the glass
+
+----- Hopper Idea -----
+Would need to be redesigned for the Vertuo pod form factor
+
+https://www.yoctopuce.com/EN/article/an-automatic-nespresso-capsule-dispenser
