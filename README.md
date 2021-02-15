@@ -1,6 +1,8 @@
 # SmartCoffeeBar
 Firmware for an ESP8266 to control a coffee machine for integration with the MyBar.io system
 
+YouTube Video of current project progress (as of February 2021): https://youtu.be/5aynyWq_ZiU
+
 In late 2020, a MyBar.io system was purchased and successfully installed. It's inspired a bigger vision of a wholly automated beverage ordering, generation and delivery system.
 
 Staying safe at home during the Covid-19 pandemic, automated services that reduce human contact with food/beverage items are all the more important. 2020 is also a year of increased access to IoT technology. Therefore, the aim of this project and it's associated code/repositories is to use low-cost, easily sourced IoT components and integrate them with both the MyBar system and other home beverage appliances which are priced well. 
