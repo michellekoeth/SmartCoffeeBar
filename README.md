@@ -3,6 +3,8 @@ Firmware for an ESP32 to control a coffee machine for integration with the MyBar
 
 YouTube Video of February 2021 version: https://youtu.be/5aynyWq_ZiU
 
+Link to presentation given at Code for NoVA on June 16, 2022: https://drive.google.com/file/d/1XB2YGCqpj9WETCT1fo36XuTN03_8xNKM/view?usp=sharing
+
 Project Vision and Inspiration:
 *******************************
 In late 2020, a MyBar.io system was purchased and successfully installed. It's inspired a bigger vision of a wholly automated beverage ordering, generation and delivery system.
