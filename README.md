@@ -23,6 +23,8 @@ UPDATES:
 ********
 June 15, 2022: The project has moved to an ESP32 based platform now, and a streamlined script that just interfaces with the Vertuo Plus coffeemachine and the pod loading mechanism has been added to the repository. This code needs only one ESP32 to run on, rather than a mesh network of ESP devices talking to each other. The mesh/network version is currently being ported over to an entirely ESP32 based system. I had to ditch using ESP8266s as there was incompatibility in the ESP-NOW based communications between the ESP8266s and the ESP32s, and it seems keeping all the microprocessors on the same ESP32 architecture makes the ESP-NOW commmunications much easier to implement.
 
+November 2022: After updating the coffee machine's circuit board to be a all-in-one 4-ch relay and ESP32 board (https://www.amazon.com/dp/B09XWWYK4V) I have once again made the system an ESP32 mesh based system, where there are dedicated processors as follows, that all communicate to each other over ESP-NOW: 1) the coffee machine itself; 2) the pod loading mechanism; 3) the linear stage that moves the cup to different "dispenser" areas; and 4) the MyBar.io machine which is one of the dispenser areas serviced by the linear stage, and where you can add extra liquids to the brewed coffee. The special MyBar.io processor code is in a different repo: michellekoeth/firmwareESP_NOWAPI
+
 ------ Some info on the MyBar.io Board API, which I've also included in the Readme for the MyBar firmware repo fork that is on the same project as this repo -------
 The ESP32 gets a command over Bluetooth with number of pump, direction and duration on milliseconds: "3-f-3000"
 Directions are: f - forward, b - backwards and s -  stop
